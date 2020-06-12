@@ -40,6 +40,7 @@ h1{
   line-height: 100vh;
   font-size: 70px;
   color: #f5f5f5;
+  text-shadow: 0 0 10px gold,0 0 15px #fff;
 
 }
 #about{
@@ -129,11 +130,17 @@ h2{
   border-radius: 15px;
   box-shadow: 0 0 10px #333;
   background-color: #f5f5f5;
+  transition: background-color .9s;
 
 }
 
 .portfolio-contents:hover{
   opacity: 0.8;
+  
+  background-color: gold;
+  
+  
+  
 }
 
 img{
@@ -158,6 +165,16 @@ img{
   
   text-align: center;
   font-size: 70px;
+
+}
+
+.mail:hover{
+  color: orange;
+
+}
+
+.git:hover{
+  color: greenyellow;
 
 }
 
