@@ -40,7 +40,7 @@ h1{
   line-height: 100vh;
   font-size: 70px;
   color: #f5f5f5;
-  text-shadow: 0 0 10px gold,0 0 15px #fff;
+  text-shadow: 0 0 10px gold,0 15px 15px #fff;
 
 }
 #about{
